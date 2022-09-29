@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4499FE;
+}
+body .container {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+body .container .menu-title {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+body .container .menu-style {
+  display: flex;
+  flex: 1;
+  padding-left: 185px;
+}
+body .container .menu-style .input-style {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-left: -30px;
+}
+body .container .menu-style .input-style #input {
+  margin: 10px;
+  border-radius: 8px;
+  padding: 7px 60px 7px 7px;
+  border: none;
+  background-color: #E9E9E9;
+}
+body .container .menu-style .input-style .retoran_name {
+  width: 485px;
+}
+body .container .menu-style #btn_add {
+  height: 30px;
+  width: 80px;
+  margin-top: 50px;
+  background-color: #1DE755;
+  border-radius: 5px;
+  border: none;
+}
+
+.list {
+  background-color: #fff;
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.list .image {
+  width: 200px;
+  height: 90%;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.list .text_dev {
+  display: inline-block;
+  width: 80%;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-right: 107px;
+  word-break: break-all;
+}
+.list .text_dev .one_text {
+  font-size: 18px;
+  margin-top: 18px;
+  max-width: 400px;
+  word-break: break-all;
+}
+.list .text_dev .two_text {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.list .text_dev .thre_text {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.list .text_dev .four_text {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.list .btn-div-last {
+  width: 300px;
+  height: 100%;
+}
+.list .boxEl {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.list .delete {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 26px 11px 18px;
+  margin-top: 20px;
+  margin-left: 135px;
+  background: #FB2020;
+  border: none;
+}
+.list .data {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 42px 11px 36px;
+  margin-top: 20px;
+  margin-left: 135px;
+  border: none;
+  background: #F5D00D;
+}
+.list .stop {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 34px 11px 36px;
+  margin-top: 20px;
+  margin-left: 135px;
+  border: none;
+  background: #15E04E;
+}
+.list .bi-check2-all {
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */
